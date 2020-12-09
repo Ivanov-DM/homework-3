@@ -1,10 +1,10 @@
 module.exports = {
   presets: [
     [
-      'env',
+      "env",
       {
         targets: {
-          node: 'current',
+          node: "current",
         },
       },
     ],
