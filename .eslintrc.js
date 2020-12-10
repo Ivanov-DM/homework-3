@@ -15,6 +15,7 @@ module.exports = {
     "no-console": "off",
     "no-alert": "off",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
+    "no-param-reassign": "off",
   },
   plugins: ["jest"],
 };
