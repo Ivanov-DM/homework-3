@@ -30,7 +30,7 @@ describe("tests for homework #7", () => {
       const input = el.querySelector("input");
       const button = el.querySelector("button");
       expect(button.hidden).toBeTruthy();
-      const text = `${Math.random()  }`;
+      const text = `${Math.random()}`;
       input.value = text;
       input.dispatchEvent(new window.Event("keyup"));
       expect(button.hidden).toBeFalsy();
@@ -39,7 +39,7 @@ describe("tests for homework #7", () => {
     it("adds new p on click by button", () => {
       createForm(el);
       const input = el.querySelector("input");
-      const text = `${Math.random()  }`;
+      const text = `${Math.random()}`;
       input.value = text;
       input.dispatchEvent(new window.Event("keyup"));
       const button = el.querySelector("button");
@@ -53,7 +53,7 @@ describe("tests for homework #7", () => {
       createForm(el);
       const input = el.querySelector("input");
       for (let i = 0; i < 5; i++) {
-        const text = `${Math.random()  }`;
+        const text = `${Math.random()}`;
         input.value = text;
         input.dispatchEvent(new window.Event("keyup"));
         const button = el.querySelector("button");
